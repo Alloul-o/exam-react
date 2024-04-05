@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
+import './commande.css'
 
 const Commande = () => {
   const [commands, setCommands] = useState([]);
@@ -52,9 +53,9 @@ const Commande = () => {
   }
 
   return (
-    <div id="gold">
+    <div >
       <h2>Commands List</h2>
-      <table>
+      <table className="table table-dark table-striped"  id="gold">
         <thead>
           <tr>
             <th>Client Name</th>

@@ -1,3 +1,41 @@
-.gold{
-  
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #282a35;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+td {
+    font-size: 16px;
+}
+
+tr:hover {
+    color: #fff;
+    background-color: #04aa6d;
+}
+
+h2 {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
+
+#gold{
+    background-color: #e2ca72;
 }
